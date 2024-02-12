@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: url(); */
+  background-image: url(./Images//background.jpg);
+  background-color: aqua;
+  background-size: cover;
+}
+
+.head h2 {
+  margin-top: 5%;
+  color: red;
+  font-size: 30px;
+  letter-spacing: 2px;
+  transition: 1s;
+}
+.head h2:hover {
+  color: black;
+  text-shadow: 0 0 3px #ff0000;
+  transition: 1s;
+}
+.head h4 {
+  margin-top: 1%;
+}
+.head h4 a {
+  color: white;
+  transition: 1s;
+  text-decoration: none;
+}
+.head h4 a:hover {
+  color: black;
+  letter-spacing: 1px;
+  transition: 1s;
+}
+.head img {
+  margin-top: 5%;
+  width: 50%;
+  transition: 1s;
+  border-radius: 5px;
+}
+.head img:hover {
+  width: 60%;
+  transition: 1s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+  margin-top: 4%;
+  text-align: justify;
+  line-height: 25px;
+  padding: 5%;
+}
+.content span {
+  color: red;
+}
+.favourite-movie {
+  margin-top: 2%;
+}
+.favourite-movie h3 {
+  color: red;
+  letter-spacing: 2px;
+}
+.favourite-movie h4 {
+  margin-top: 1%;
+}
+.favourite-movie h4 a {
+  text-decoration: none;
+}
+.favourite-movie h4 a:hover {
+  color: black;
+}
+.favourite-movie iframe {
+  margin-top: 3%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 1s;
+}
+.favourite-movie iframe:hover {
+  box-shadow: 5px 5px 10px;
+  transition: 1s;
+}
+.favourite-movie h2 {
+  margin-top: 1%;
+  color: rgb(255, 136, 0);
+  margin-bottom: 3%;
+  transition: 1s;
+}
+.favourite-movie h2:hover {
+  color: #ff0000;
+  letter-spacing: 2px;
+  transition: 1s;
+  text-shadow: 1px 2px black;
+}
